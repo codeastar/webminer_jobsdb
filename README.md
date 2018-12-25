@@ -1,10 +1,13 @@
-# WebMiner - Indeed.com
+# WebMiner - JobsDB.com
 
-A web scraper which scrape job info from indeed.com, then generate a word cloud using TFIDF. 
+A web scraper which scrapes job info from Hong Kong's JobsDB.com, then generate a word cloud using TFIDF. 
 
 ### Usage
 ```
-$pythonw indeedminer.py <Job> <Location>
+Ordinary mode:
+$pythonw jobsdbminer.py <Job> -p <result page count> 
+Junk Boat mode:
+$pythonw jobsdbminer.py <Job> -p <result page count> -j
 ```
 
-For more details, let's have a look at https://www.codeastar.com/word-cloud-easy-python-job-seekers/
+For more details, let's have a look at https://www.codeastar.com/hong-kong-python-word-cloud-job-seekers/
